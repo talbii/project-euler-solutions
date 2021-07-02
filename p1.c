@@ -2,9 +2,15 @@
 
 int sum_mul(int, int*, int);
 
+/* Problem:
+sum of all numbers in [1,1000] divided by either 3 or 5.
+*/
+
 int main(void) {
     int divs[] = {3,5};
     printf("%d", sum_mul(1000, divs, 2));
+
+    return 0;
 }
 
 
