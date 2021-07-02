@@ -1,6 +1,6 @@
 # Project Euler Solutions
 
-In this repository I have uploaded my solutions for Project Euler's questions.
+In this repository I have uploaded my solutions for Project Euler's Problems.
 
 I've written the solutions in C, and tried to optimise them as much as I cared for.
 
