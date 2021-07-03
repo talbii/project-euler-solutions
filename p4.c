@@ -3,6 +3,9 @@
 int is_palindrome(int);
 int max_palindrome(int);
 
+/* Problem:
+return the largest palindrome which can be factored into a product of 2 three-digit numbers.
+*/
 
 int main(void) {
     printf("%d", max_palindrome(3));
