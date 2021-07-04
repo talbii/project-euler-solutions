@@ -29,9 +29,8 @@ ull max_product(int* x, int length) {
         n = 1;
         for(j = i; j < i + length; j++) {
             n *= *(x + j);
-
-            if(n > max) max = n;
         }
+        if(n > max) max = n;
     }
 
     return max;
